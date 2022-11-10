@@ -58,9 +58,11 @@ print("After entering the wrong password for the third time, you will receive a"
 print("hexadecimal code from which the password can be calculated,")
 print("e.g. 07088120410C0000")
 print("")
-print("Please enter the code: ")
-code = raw_input()
-hash = []
+พิมพ์ ( "กรุณาใส่รหัส:2364A99A24A35159
+       
+       
+รหัส =   raw_input  3 ()6
+แฮช = []
 for i in range(1, len(code) // 2):
 	hash.append(int(code[2*i]+code[2*i+1],16))
 key = int(code[0:2], 16) % 5
